@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr 2.3fr 1fr;
+  grid-template-rows: 100vh;
+}
+
+.logoImg {
+  width: 120px;
+  height: 45px;
+}
+
+.sideBarContainer {
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  width: 350px;
+  border: 0.5px solid gray;
+}
+
+.logoDiv {
+  width: 160px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  width: 180px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+}
+
+.texts {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.flex:hover {
+  transform: scale(1.2);
+}
+
+.possition {
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+}
+
+.storyContainer {
+  width: 450px;
+  height: 90px;
+  background-color: cyan;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+}
+
+.text-decoration {
+  text-decoration: none;
+  color: black;
+}
+
+.imageProfile {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+
+.ProfilePicture {
+  height: 210px;
+  width: 200px;
+  margin-top: 30px;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.allBio {
+  width: 500px;
+  height: 210px;
+}
+
+.bio {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.userName {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: x-large;
+  margin-right: 20px;
+}
+
+.editProfileButton {
+  width: 90px;
+  height: 35px;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: white;
+  border: 0.5px solid gray;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.settingsButton {
+  width: 40px;
+  height: 35px;
+}
+
+.social {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  margin-right: 23px;
+  font-size: 15px;
+}
+
+.name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  display: flex;
+  margin-right: 230px;
+}
+
+.highlightContainer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.newText {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.borderBottom {
+  width: 800px;
+  border-bottom: 1px solid gray;
+}
+
+.postContainer {
+  height: 100%;
+  width: 450px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: black;
+}
